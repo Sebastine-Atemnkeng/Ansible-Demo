@@ -9,7 +9,8 @@
 - ansible-node2
 - ansible-node3
 
-# Connect into each of the server and change the hostname of your server #sudo hostname ansible-master 
+# Connect into each of the server and change the hostname of your server 
+- sudo hostname ansible-master 
 
 - sudo hostname ansible-node1 
 - sudo hostname ansible-node2 
@@ -24,11 +25,13 @@
 - :/PasswordAuthentication 
 - :/PermitRootLogin 
 - PermitRootLogin no to PermitRootLogin yes 
-- PasswordAuthentication no to PasswordAuthentication yes #sudo service sshd restart
+- PasswordAuthentication no to PasswordAuthentication yes
+- sudo service sshd restart
 
 # Add user ansible to the wheel group 
-nano /etc/sudoers 
-	- Add ansible to root, uder "Allow root to run any commands anywhere". This will allow ansible to  work as root without 	  requiring a password 
+nano /etc/sudoers
+
+- Add ansible to root, uder "Allow root to run any commands anywhere". This will allow ansible to  work as root without 	  requiring a password 
           root ALL=(ALL) ALL
           ansible ALL=(ALL) NOPASSWD:ALL  <--
 
@@ -42,8 +45,8 @@ Once the repository is installed, install Ansible with yum:
 Ansible keeps track of all of the servers that it knows about through a "hosts" file. We need to set up this file first before we can begin to communicate with our other computers. 
 Open the file with root privileges like this:
 
-- sudo vi /etc/ansible/hosts 
-- vim etc/ansible/hosts 
+- sudo nano /etc/ansible/hosts 
+- nano etc/ansible/hosts 
 
 [webserver] 
 
