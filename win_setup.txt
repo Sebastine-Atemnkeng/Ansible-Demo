@@ -1,0 +1,5 @@
+1) [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+2) $url = "https://raw.githubusercontent.com/jborean93/ansible-windows/master/scripts/Install-WMF3Hotfix.ps1"
+3) $file = "$env:temp\Install-WMF3Hotfix.ps1"
+4) (New-Object -TypeName System.Net.WebClient).DownloadFile($url, $file)
+5) powershell.exe -ExecutionPolicy ByPass -File $file -Verbose

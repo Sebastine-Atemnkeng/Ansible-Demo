@@ -1,0 +1,6 @@
+---
+- hosts win
+  gather_facts no
+  tasks
+  - name Install chocolates on windows
+    win_chocolatey  name=procexp state=present

@@ -1,0 +1,7 @@
+[win]
+10.0.0.216 --> Ip address of windows server
+
+[win:vars]
+ansible_user=ansible_user
+ansible_password=welcome1234
+ansible_connection=winrm

@@ -1,4 +1,4 @@
 fileignoreconfig:
-- filename: READ.me
-  checksum: 37ce0c91dcd0a80375d96f4d653097fbf47c2c04f44882b343b3c69870518556
+- filename: inventory
+  checksum: aa4f9c83654f062ba00481891a03c3069c669df03b43b05362ce359553cb58d1
 version: ""
