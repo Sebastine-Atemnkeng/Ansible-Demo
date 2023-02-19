@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: READ.me
+  checksum: 37ce0c91dcd0a80375d96f4d653097fbf47c2c04f44882b343b3c69870518556
+version: ""
