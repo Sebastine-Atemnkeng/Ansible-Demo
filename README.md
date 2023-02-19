@@ -2,7 +2,7 @@
 
 # Ansibe Static Inventory Setup 
 
-https://1.bp.blogspot.com/-dz7PCHIGXhI/X5s7S3esPiI/AAAAAAAADHE/9c3eOitPPkolv8ufrZ0E-yQ0WIKGOH5DwCLcBGAsYHQ/s1062/Ansible%2BArch.png
+# https://1.bp.blogspot.com/-dz7PCHIGXhI/X5s7S3esPiI/AAAAAAAADHE/9c3eOitPPkolv8ufrZ0E-yQ0WIKGOH5DwCLcBGAsYHQ/s1062/Ansible%2BArch.png
 
 # Spin up 3 servers with centos 7 AMI, name them as follows ansible-master 
 ansible-node1 
